@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="red">Call Me Sansanati</h1>
+    <!-- can acces through id -->
+     <div class="controller">
+
+         <div class="pics">
+             <img src="WhatsApp Image 2024-09-27 at 2.28.11 AM.jpeg" alt="">
+        </div>
+    </div>
+        <div id="firstcontainer" class="container">
+            
+            
+            <button id="click" onclick="clicked()">Click Me For Mossa</button>
+        </div>
+    <div class="container">
+        Press the uper button to get details of Mossa don
+    </div>
+    <script>
+        //  function clicked(){
+        //     alert("i am clicked");
+        //  }
+        let prev = document.querySelectorAll('.container')[1].innerHTML;
+        firstcontainer.addEventListener('mouseup', function () {
+            document.querySelectorAll('.container')[1].innerHTML = prev;
+        })
+        firstcontainer.addEventListener('mousedown', function () {
+            document.querySelectorAll('.container')[1].innerHTML = "I can’t believe your birthday is coming up on May 17! 🎂🥳 You’re such a special little superstar in our family! I can’t wait to celebrate your big day with you!May your birthday be filled with tons of fun, yummy cake, and all the things you love! 🎮🍰 You deserve all the joy in the world this year. 🌟Get ready for some amazing adventures and surprises! I’m so excited to celebrate with you! 🎊💖";
+
+        })
+    </script>
+</body>
+
+</html>

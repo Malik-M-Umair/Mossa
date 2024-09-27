@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 15rem;
+    border-radius: 20px;
+}
+#click{
+    margin-left: 50px;
+}
+.red{
+    color: red;
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: bolder;
+
+}
+button{
+    font-size:1rem ;
+    font-weight: bolder;
+    color: red;
+}
+button:hover{
+    scale: 1.2;
+}
