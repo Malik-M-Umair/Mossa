@@ -35,10 +35,12 @@ button{
 button:hover{
     scale: 1.2;
 }
-#fg{
-font-size: 1.1rem;
+.fg{
+    color: red;
+font-size: 1.5rem;
 font-weight: bolder;
 margin-top: 20px;
+margin-left: 130px;
 }
 .bh{
     margin-left: 130px;
