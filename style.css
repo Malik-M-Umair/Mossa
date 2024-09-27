@@ -5,23 +5,43 @@ body{
 img{
     width: 15rem;
     border-radius: 20px;
-}
+    border-style: groove;
+      margin-left: 60px;
+    display: flex;}
 #click{
-    margin-left: 50px;
+    margin-left: 80px;
+
 }
 .red{
     color: red;
     font-family: serif;
     font-size: 3rem;
     font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 button{
-    font-size:1rem ;
+    font-size:1.3rem ;
+    margin-top: 10px;
+    border-radius: 20px;
+    
     font-weight: bolder;
-    color: red;
+    color: white;
+    background-color: red;
     cursor: pointer;
 }
 button:hover{
     scale: 1.2;
+}
+#fg{
+font-size: 1.1rem;
+font-weight: bolder;
+margin-top: 20px;
+}
+.bh{
+    margin-left: 130px;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
