@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
     <h1 class="red">Call Me Sansanati</h1>
     <!-- can acces through id -->
@@ -23,17 +24,17 @@
             <button id="click" onclick="clicked()">Click Me For Mossa</button>
         </div>
     <div class="container">
-        Press the uper button to get details of Mossa don
+        Press and hold uper button to get details of Mossa don
     </div>
     <script>
         //  function clicked(){
         //     alert("i am clicked");
         //  }
         let prev = document.querySelectorAll('.container')[1].innerHTML;
-        firstcontainer.addEventListener('mouseup', function () {
+        firstcontainer.addEventListener('mouseout', function () {
             document.querySelectorAll('.container')[1].innerHTML = prev;
         })
-        firstcontainer.addEventListener('mousedown', function () {
+        firstcontainer.addEventListener('mouseover', function () {
             document.querySelectorAll('.container')[1].innerHTML = "I can’t believe your birthday is coming up on May 17! 🎂🥳 You’re such a special little superstar in our family! I can’t wait to celebrate your big day with you!May your birthday be filled with tons of fun, yummy cake, and all the things you love! 🎮🍰 You deserve all the joy in the world this year. 🌟Get ready for some amazing adventures and surprises! I’m so excited to celebrate with you! 🎊💖";
 
         })
